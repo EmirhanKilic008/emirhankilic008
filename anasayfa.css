@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ust-menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 100vw;
+}
+
+.yazi{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1rem;
+    margin-left: 0px;
+    text-shadow: 3px 6px 2px rgba(0,0,0, .3);
+    display: flex;
+}
+
+.amblem{
+    display: flex;
+    max-width: 15%;    
+}
+.amblem img{
+    max-width: 100%;
+}
+
+.araclar{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.giris-arac{
+    display: flex;
+    width: 5vw;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+.giris-arac img{
+    max-width: 100%;
+}
+
+.profil{
+    width: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.profil img{
+    max-width: 100%;
+}
+
+.ana-sayfa{
+    width: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.ana-sayfa img{
+    max-width: 100%;
+}
+
+.iletişim-container{
+    display: flex;
+    background-color: coral;
+    width: 15vw;
+    height: 3vw;
+    flex-direction: column;
+    
+}
+
+.telefon{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.telefon img{
+    max-width: 100%;
+}
+
+.mail{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mail img{
+    max-width: 100%;
+}
+
+.arac-yazı{
+    font-size: x-small;
+}
+
+.akademi-geçmiş-container{
+    display: flex;
+    width: 50vw;
+    height: 18vw;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h2-başlık{
+    font-style: italic;
+    color: red;
+    font-weight: bolder;
+    
+}
+
+.ilkokul{
+    display: flex;
+    flex-direction: column;
+}
+
+.ortaokul{
+    display: flex;
+    flex-direction: column;
+}
+
+.lise{
+    display: flex;
+    flex-direction: column;
+}
+
+.üniversite{
+    display: flex;
+    flex-direction: column;
+}
+
+.akademi-h{
+    color: darkred;
+    font-weight: bolder;
+}
+
+.akademi-p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+
+.programlar-container{
+    display: flex;
+    width: 15vw;
+    background-color:gold;
+    flex-direction: column;
+}
+
+.liste{
+    font-weight: bold;
+    list-style-type:disc;
+    font-size: large;
+}
+
+.yapılan-anacontainer{
+    display: flex;
+    background-color: blueviolet;
+    width: 100vw;
+    flex-direction: column;
+    
+}
+
+.ayırma-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sağ-açıklama-container{
+    display: flex;
+    width: 20vw;
+    background-color: cyan;
+    align-items: center;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.sol-açıklama-container{
+    display: flex;
+    width: 20vw;
+    background-color: cyan;
+    align-items: center;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.fotoğraflar{
+    display: flex;
+    width: 40vw;
+    background-color: blue;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto img{
+    max-width: 100%;
+}
+
+.ayraç{
+    width: 100vw; 
+    height: 1vw;
+    background-color: blueviolet;
+}
+
+.h2-başlık-2{
+    font-style: italic;
+    color: red;
+    font-weight: bolder;
+    width: 100vw;
+    align-items: center;
+    
+}
+
+.genel-düzen{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.üst-parça{
+    display: flex;
+    width: 100vw;
+    height: 5.15vw;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+
+.üst-parça-yazı{
+    color: blue;
+    font-size:xx-large;
+    font-style: italic;
+}
+
+.alt-genel{
+    display: flex;
+    width: 100vw;
+}
+
+.yan-ayraç{
+    display: flex;
+    width: 18vw;
+    background-color:rgb(184, 184, 184);
+    align-items: center;
+    
+}
+
+.yan-ayraç-2{
+    display: flex;
+    background-color: blue;
+    width: 1vw;
+    
+}
+
+.orta-ana{
+    display: flex;
+    width: 61vw;
+}
+
+.ortasağ{
+    display: flex;
+    flex-direction: column;
+}
+
+.msgsü{
+    display: flex;
+    width: 30vw;
+    background-color: blue;
+    position: relative;
+}
+.msgsü img{
+    max-width: 100%;
+}
+
+.anasayfa-aktar{
+    display: flex;
+    width: 30vw;
+    background-color: blue;
+    position: relative;
+
+}
+.anasayfa-aktar img{
+    max-width: 100%;
+}
+
+
+.profil-aktar{
+    display: flex;
+    width: 30vw;
+    background-color: blue;
+    position: relative;
+}
+
+.profil-aktar img{
+    max-width: 100%;
+}
+
+.link-tik{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.dikey-ayrac{
+    display: flex;
+    width: 1vw;
+    background-color: blue;
+}
+
+.yatay-ayrac{
+    display: flex;
+    height: 1vw;
+    background-color: blue;
+}
+
+.ortasol{
+    display: flex;
+    flex-direction: column;
+}
+
+.ikiye-ayır{
+    display: flex;
+    justify-content: center;
+}
+
+.solparça{
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+}
+
+.sağparça{
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    background-color: cadetblue;
+}
+
+.içtekiayraç{
+    display: flex;
+}
+
+.içsol{
+    display: flex;
+}
+
+.içsağ{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+.ortaparça{
+    display: flex;
+    max-width: 20vw;
+    background-color: blue;
+}
+
+.ortayazı{
+    display: flex;
+    text-align: center;
+    writing-mode:vertical-lr;
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sağ-yazı{
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.h2-başlık-3{
+    font-style: italic;
+    font-size: xx-large;
+    color: red;
+}
+
+.teşekkür{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    max-width: 100vw;
+    flex-direction: column;
+}
+
+.ayrac-yazı{
+    color: red;
+    writing-mode: vertical-lr;
+    font-style: italic;
+    font-weight: bolder ;
+    font-size:xx-large;
+    
+}
+
+/* Pop-up stil */
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 400px;
+    max-width: 80%;
+}
+
+#screensaver {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20%;
+}
